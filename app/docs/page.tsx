@@ -2,7 +2,7 @@
 export default function DocsPage() {
   return (
     <h1>
-      Docs
+      This is the docs page
     </h1>
   );
 }
