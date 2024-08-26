@@ -1,1 +1,1 @@
-This is a NEXT.JS project that starts with a simple React app. I am using MUI component library for UI rendering.
+This is a very simple Next.js project that starts with a basic React app. I am using the MUI component library for UI rendering, and I am just building this app to improve my skills in the Next.js framework. This is my first project in Next.js, and in this project, I am trying to learn the fundamental concepts of Next.js
