@@ -1,6 +1,6 @@
 
 
-From NEXT.JS
+From NEXT.JS:
 npx create-next-app@latest
 
 
