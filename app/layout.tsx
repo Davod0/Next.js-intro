@@ -6,6 +6,7 @@ import { AppRouterCacheProvider } from '@mui/material-nextjs/v13-appRouter';
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import Header from "./lib/Header";
+import { CssBaseline } from '@mui/material';
 
    
 const inter = Inter({ subsets: ["latin"] });
@@ -22,9 +23,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={inter.className} style={{margin: 0}}>
+      <body className={inter.className}>
           <AppRouterCacheProvider>
             <Header/>
+            <CssBaseline />
             <main>{children}</main>
           </AppRouterCacheProvider>      
         </body>
