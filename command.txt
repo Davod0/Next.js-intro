@@ -8,3 +8,4 @@ From MUI documentation:
 npm install @mui/material @emotion/react @emotion/styled
 npm install @fontsource/roboto
 npm install @mui/material-nextjs @emotion/cache
+npm install @mui/icons-material

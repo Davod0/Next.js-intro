@@ -1,12 +1,13 @@
-import type { Metadata } from "next";
-import { Inter } from "next/font/google";
-import { AppRouterCacheProvider } from '@mui/material-nextjs/v13-appRouter';
 import '@fontsource/roboto/300.css';
 import '@fontsource/roboto/400.css';
 import '@fontsource/roboto/500.css';
 import '@fontsource/roboto/700.css';
+import { AppRouterCacheProvider } from '@mui/material-nextjs/v13-appRouter';
+import type { Metadata } from "next";
+import { Inter } from "next/font/google";
+import Header from "./lib/Header";
 
-
+   
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
@@ -21,12 +22,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={inter.className}>
-
+      <body className={inter.className} style={{margin: 0}}>
           <AppRouterCacheProvider>
-            <header></header>
+            <Header/>
             <main>{children}</main>
-            <footer></footer>  
           </AppRouterCacheProvider>      
         </body>
     </html>
